@@ -1,0 +1,15 @@
+.img-logo{
+    max-width: 190px;
+    max-height: 80px;
+}
+.header{
+    &__content{
+        .nav-item a{
+            border: 2px solid transparent;
+        }
+        .nav-item a:hover{
+            border-bottom: 2px solid var(--color-1);
+        }
+        
+    }
+}
